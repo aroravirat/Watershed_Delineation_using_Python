@@ -109,6 +109,7 @@ aguila FlowDirection.map
 ### Step 5: 
 Calculate Strahler order
 To extract the network of streams or rivers we will use streamorder function. Stream order / Strahler Order is defined as the index of all streams delineated on a given local drain direction network. 
+
 In the python script:
 ```
 Strahler = streamorder(FlowDirection)
@@ -125,6 +126,8 @@ aguila strahler.map
 
 ### Step 6:
 The results of strahler order doesn’t differntiate between small streams and large streams. Hence, in order to get larger streams, we will delineate streams above strahler index  8. 
+
+In the python script:
 
 ```
 Strahler8 = ifthen(Strahler > 8 , boolean(1))
@@ -148,6 +151,8 @@ cat > location.txt
 
 ```
 We will clone this text file which contains coordinates to a PCRaster format using GDAL command. 
+
+In command prompt:
 
 ```
 col2map -N location.txt outlet.map --clone dem.map 
