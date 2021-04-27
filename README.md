@@ -6,6 +6,10 @@
 
 The watershed delineation is defined as the area of land which servesunder catchment of river or stream. Using watershed delineation we calculate stream order, flow directions, catchment area and basins.Watershed delineation is carried out using Digital Elevation Models (DEM). Digital Elevation Models (DEM) is grids of cell which contain information regarding the elevation in each cell. DEMs store same kind of information as contour lines do, but with different data structure. For many years engineers have been using paper maps for watershed delineation. But recently watershed delineation is carried out using software such as QGIS, ArcGIS, etc. but it seems to be too tedious and requires extensive training to use such software, hence we have developed an alternate method for doing such kind of analysis using Python script which can be implemented in any system using Bash Script. In this project we have developed a python algorithm to calculate flow direction, strahler order and catchment area using PCRaster module at a desired location. PcRaster is an open source module used for various spatio-temporal analysis with support of GDAL. It is also user friendly python module for watershed analysis. The result shows that this is most convenient and cheap method for watershed analysis. It also provides efficient and robust results.
 
+## Remote Sensing:
+
+Remote sensing is the acquisition of information about an object or phenomenon without making physical contact with the object and thus is in contrast to on-site observation.
+
 ## Watershed Analysis:
 
 Watershed management has
