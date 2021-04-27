@@ -162,3 +162,5 @@ aguila rurcatchment.map
 ```
 
 Results:
+
+![catchment](https://user-images.githubusercontent.com/76841630/116233419-e253f800-a778-11eb-9e62-1d7fe96f81ce.png)
