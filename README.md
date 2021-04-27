@@ -170,3 +170,35 @@ aguila rurcatchment.map
 Results:
 
 ![catchment](https://user-images.githubusercontent.com/76841630/116233419-e253f800-a778-11eb-9e62-1d7fe96f81ce.png)
+
+
+### Conclusion and Future Scope.
+
+For watershed delineation using PCRaster first we need to mosaic/merge all the tiff files into a single tiff file. Then we will translate the merged tiff file to a PCRaster supported format which is .map format. After which we can visualize output using Aguila commands. Secondly, we will calculate flow directions using lddcreate function. After that we will calculate stream networks using streamorder function. To find catchment on a particular coordinates we will first make a text file which will contain our given coordinates. Then using col2map function we will clone it to a new .map file. And with the help of new .map file and flow direction file we can delineate catchment.
+
+Some of the observations are as following:
+
+PCRaster is the most cohesive method for watershed delineation and its related processes, it gives you the appropriate results, but it has a major drawback you will have to interchange between your command prompt and python compiler. You will have to operate its python functions on compiler and view your results on command prompt
+
+Input format in PCRaster is .map. We need to use GDAL commands to convert .tiff images to .map images. Therefore, we must try directly using .tiff images for exploration.
+Due to time limitations and other reasons, we had to stick with a constricted area. For better accuracy and results, the study can be extended to catchment delineation over different levels (country, state, district and watershed level). 
+
+### Refrences
+
+•	Li, L.; Yang, J.; Wu, J. A Method of Watershed Delineation for Flat Terrain Using Sentinel-2A Imagery and DEM: A Case Study of the Taihu Basin. ISPRS Int. J. Geo-Inf. 2019, 8, 528. https://doi.org/10.3390/ijgi8120528 
+
+•	Watershed Delineation of Purna River using Geographical Information System (GIS) Umang S. Visharolia1, Narendra J. Shrimali2, Indra Prakash3  
+
+•	Watershed Delineation And Stream Network Analysis Using GIS
+A.S.Chandra Bose1, P.Sridhar2, M.V.S.S. Giridhar3 and G.K.Viswanadh4 
+
+•	Optimized watershed delineation library for
+server-side and client-side web applications
+Muhammed Sit1* , Yusuf Sermet2 and Ibrahim Demir3 
+
+•Tutorial: Map Algebra with PCRaster Python : https://courses.gisopencourseware.org/mod/book/view.php?id=430&chapterid=1429             
+
+•	https://www.hatarilabs.com/ih-en/watershed-and-stream-network-delimitation-with-python-and-pysheds-tutorial#:~:text=Pysheds%20is%20a%20Python%203,%2DImage%2C%20Rasterio%20and%20others.
+
+•	https://github.com/mdbartos/pysheds 
+
