@@ -33,6 +33,10 @@ Lddcreate in the codes below represents Local drain direction, with
 which flow directions from each cell to its steepest down slope
 neighbor cell is calculated.
 
+```
+Result = lddcreate(elevation, outflowdepth, corevolume, corearea, catchmentprecipitation)
+```
+
 You can just install PcRaster on linux using following commands one by one:
 
 ```
@@ -46,9 +50,6 @@ $ make install
 
 ```
 
-```
-Result = lddcreate(elevation, outflowdepth, corevolume, corearea, catchmentprecipitation)
-```
 
 ### Step 1:
 
