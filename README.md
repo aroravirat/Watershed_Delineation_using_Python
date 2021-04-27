@@ -101,7 +101,7 @@ Visualize Flowdirections map using:
 aguila FlowDirection.map
 ```
 
-![Strahler](https://user-images.githubusercontent.com/76841630/116233780-5e4e4000-a779-11eb-9b92-c267b6c11225.png)
+
 
 ### Step 5: 
 Calculate Strahler order
