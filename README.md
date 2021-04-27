@@ -61,6 +61,8 @@ Download all the required DEM tiles from https://search.earthdata.nasa.gov or Bh
 If there are more than one tiles than built a mosaic or skip to step 3.
 First include all tiff files to list file. 
 
+In command prompt:
+
 ```
 dir *.tif > list.txt 
 
