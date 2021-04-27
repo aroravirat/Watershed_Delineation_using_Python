@@ -8,7 +8,7 @@ The watershed delineation is defined as the area of land which servesunder catch
 
 ## Remote Sensing:
 
-Remote sensing is the acquisition of information about an object or phenomenon without making physical contact with the object and thus is in contrast to on-site observation.
+Remote sensing is the acquisition of information about an object or phenomenon without making physical contact with the object and thus is in contrast to on-site observation. This data can be gathered using sensors situated on airplanes or satellites. These sensors collect data in the form of images and provide specialized capabilities for manipulation, analysis, and visualizing those images using GIS technologies. 
 
 ## Watershed Analysis:
 
