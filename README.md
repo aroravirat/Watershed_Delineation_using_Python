@@ -85,6 +85,8 @@ In this case the DEM will look like:
 
 In this step we are going to calculate flow directions using lddcreate (local drain direction) function. By specifying its elevation, outflow depth, core volume, core area and catchment precipitation values.
 
+In the python script:
+
 ```
 from pcraster import*
 
