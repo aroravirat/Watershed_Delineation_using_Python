@@ -1,4 +1,4 @@
-# Watershed_Analysis_using_Python
+# Watershed_Delineation_using_Python
 
 ## AIM : To calculated Watershed Delineation Using Python
 
