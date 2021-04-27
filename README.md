@@ -119,7 +119,7 @@ Visualize Stream order using:
 ```
 aguila strahler.map
 ```
-![Strahler](https://user-images.githubusercontent.com/76841630/116233780-5e4e4000-a779-11eb-9b92-c267b6c11225.png)
+![Strahler2](https://user-images.githubusercontent.com/76841630/116234659-7f636080-a77a-11eb-9f59-10ab13bfe89e.png)
 
 ### Step 6:
 The results of strahler order doesn’t differntiate between small streams and large streams. Hence, in order to get larger streams, we will delineate streams above strahler index  8. 
