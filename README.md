@@ -126,6 +126,8 @@ Strahler8 = ifthen(Strahler > 8 , boolean(1))
 report(Strahler8, "strahler8.map")
 
 ```
+![Strahler8](https://user-images.githubusercontent.com/76841630/116233638-2c3cde00-a779-11eb-86ff-0e84d7c07750.png)
+
 ### Step 7: 
 
 Catchment delineation
