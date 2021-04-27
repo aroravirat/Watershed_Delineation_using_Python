@@ -100,6 +100,7 @@ Visualize Flowdirections map using:
 ```
 aguila FlowDirection.map
 ```
+![Flowdir](https://user-images.githubusercontent.com/76841630/116234040-b4bb7e80-a779-11eb-9ee1-788e8a61b730.png)
 
 
 
